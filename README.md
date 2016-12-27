@@ -1,14 +1,15 @@
 # ROS-Simple-Tasks
 Three simple tasks in ROS
 
+They were developed on ROS Kinetic, and can be built with catkin.
 
-# Task1: 
+## Task1: 
 Implements a simple calculator using topics.To use, start up receiver node and then sender with arguments A B Operator.Sender will probe every 1s the operation to be executed and will be canceled with a termination signal.
 
-# Task2:
+## Task2:
 Implements a simple number guessing game.Player1 "thinks" of a number and player2 has 7 tries to guess it.Start up player1 node and then player2 with a number to guess as an argument.When the game is over (player2 wins or is out of tries), player2 will publish a message to the /score topic with his score and result of the game.
 
-# Task3:
+## Task3:
 Implements a simple robot with 5 nodes.
 
 The master node reads a message from the vision node on topic /vision and starts up a motion action to move the robot to the desired location.When completed, master nodes publishes a message containing the item id on the /grasp topic.
