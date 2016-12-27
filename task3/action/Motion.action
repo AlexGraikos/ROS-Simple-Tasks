@@ -1,0 +1,8 @@
+#goal definition
+float64[3] targetPos
+---
+#result definition
+float64[3] finalPos
+---
+#feedback
+float64[3] currPos

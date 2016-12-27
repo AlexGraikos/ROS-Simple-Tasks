@@ -1,0 +1,9 @@
+#goal definition
+int32 num_guess
+---
+#result definition
+int32 isRight
+int32 triesLeft
+---
+#feedback
+int32 isOk

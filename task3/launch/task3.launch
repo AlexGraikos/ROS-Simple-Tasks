@@ -1,0 +1,10 @@
+<launch>
+
+  <group ns="robot">
+    <node pkg="task3" name="master" type="master"/>
+    <node pkg="task3" name="motion" type="motion"/>
+    <node pkg="task3" name="vision" type="vision" args="$(arg x) $(arg y) $(arg z) $(arg id)" />
+    <node pkg="task3" name="grasp" type="grasp"/>
+  </group>
+
+</launch>
